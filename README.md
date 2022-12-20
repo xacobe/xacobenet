@@ -64,6 +64,9 @@ If you want to test things locally before deploying, follow the steps below:
 
 > Generate minified production build
 
+**`npx eleventy --serve`**
+> Launch eleventy compiler
+
 Use this as the "Publish command" if needed by hosting such as Netlify.
 
 ## 🎩 Common issues
