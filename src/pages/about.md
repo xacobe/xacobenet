@@ -25,9 +25,9 @@ mi cuenta de manera autodidáctica y en mis tiempos libres.
 
 ### El principio
 
-Sí, fui un flashero en mis inicios, y no me da vergüenza reconocerlo  . Para alguién que no tenía un perfil de
+Fui flashero en mis inicios, nada de lo que arrepertirse 😜. Para alguién que no tenía un perfil de
 programador, las posibilidades que daba Flash eran irresistibles (no voy a entrar
-aquí en las limitaciones que también las tenía).
+aquí en las limitaciones que lo llevaron a su declive).
 -> to do: hablar sobre las págians flash y como coomencé con drupal y los estadares.
 Y mis primeros empleos profesionales.
 ### Las muerte de flash
