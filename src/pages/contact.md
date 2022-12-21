@@ -1,19 +1,14 @@
 ---
 section: contact
 layout: contact.njk
-title: Get in touch
+title: Contacta conmigo
 date: 2018-01-01
 permalink: /contact/index.html
-metaDescription: This is a sample meta description. If one is not present in
-  your page/post's front matter, the default metadata.desciption will be used
-  instead.
-subtitle: Contact Subtitle
+metaDescription: Página para contactar con xacobe.net
+subtitle: Y te repondo lo más breve posible
 eleventyNavigation:
-  key: Contact
+  key: Contacto
   order: 4
 ---
 
-The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
-and saves them in the connected Netlify account where notifications can
-optionally be configured. Each submission is passed through a spam filter and
-if flagged, will display a CAPTCHA challenge to the user.
+Puedes ponerte en contacto conmigo a través de este formulario.

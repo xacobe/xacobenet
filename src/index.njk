@@ -26,16 +26,16 @@ section: home
 
   {# Projects #}
   <hr/>
-  <h2>Projects</h2>
+  <h2>Proyectos</h2>
   {% from "macros/projectlist.njk" import projectlist %}
   {{ projectlist(projects = collections.project | reverse) }}
 
-  {# Articles #}
+  {# Artículos #}
   <hr/>
-  <h2>Articles</h2>
+  <h2>Artículos</h2>
   {% from "macros/articlelist.njk" import articlelist %}
   {{ articlelist(
-    articles = collections.post | reverse,
+    Artículos = collections.post | reverse,
     show_tags = false,
     limit = 3
   ) }}

@@ -31,7 +31,7 @@ collections:
           - { label: "Mobile Menu Icon (.svg)", name: "menu_icon", widget: "image", required: true }
           - { label: "Close Icon (.svg)", name: "close_icon", widget: "image", required: true }
 
-  # Articles
+  # Artículos
   - name: "article" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "src/posts" # The path to the folder where the documents are stored
@@ -92,7 +92,7 @@ collections:
             }
 
       # About page
-      - label: "About Page"
+      - label: "Sobre mí"
         name: "about"
         file: "src/pages/about.md"
         fields:

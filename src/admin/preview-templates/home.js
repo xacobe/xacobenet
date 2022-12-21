@@ -33,7 +33,7 @@ const Home = createClass({
 
           <!-- Project List Placeholder (for illustrative purposes) -->
           <hr/>
-          <h2>Projects</h2>
+          <h2>Proyectos</h2>
           <section>
             <div class="project-grid">
               <div class="project-card">
@@ -68,7 +68,7 @@ const Home = createClass({
 
           <!-- Article List Placeholder (for illustrative purposes) -->
           <hr/>
-          <h2>Articles</h2>
+          <h2>Artículos</h2>
           <section>
             <article class="article-card">
               <a class="article-card__link" href="#">

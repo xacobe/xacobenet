@@ -1,31 +1,34 @@
 ---
-title: About Me
+title: Sobre mi
 subtitle: ""
-metaDescription: This page is all about me
+metaDescription: Sobre xacobe.net
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
 eleventyNavigation:
-  key: About
+  key: Sobre mí
   order: 1
 ---
 
-### What is Fernfolio?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of creating a beautiful portfolio and blog. Tightly integrated with [Netlify CMS](https://www.netlifycms.org/) for flexible, Git-powered content management.
+### Hola soy Xacobe M. A.
+Soy un desarrollador web enfocado en HTML, CSS y Javascript además de Drupal.
+Actualmente me estoy trabajando también con los SSG (Static Site Generators),
+como Eleventy.
 
-### Why create this?
+### Un poco más sobre mi
 
-**Reason #1:** I wanted a portfolio that was simple, fast, accessible, and integrated with a git-powered cms. Existing templates didn't perfectly fit my needs, so I decided to build my own template.
+En el año 2002 estudié producción multimedia en el Lambeth college de Londres.
+Allí hice mi primeras páginas web tanto con HTML como con Flash. Además de crear
+aquellos (siguen habiendo) menús interactivos de los DVD con Director Macromedia.
 
-**Reason #2:** I wanted to learn more about [Eleventy](https://www.11ty.dev/) and static site generators in general. Building Fernfolio was a good excuse to dive deeper on that topic.
+Situaciones de la vida, no pude terminar el grado. Así que me seguí formando, por
+mi cuenta de manera autodidáctica y en mis tiempos libres.
 
-### How do I edit content?
-Once your site is deployed and configured, add `/admin` to the end of the url (not using localhost) and hit refresh. From there, you should be able to login and see see the content management dashboard. You should be able to change most content here (e.g. page text, images, logo, articles, projects, etc.).
+### El principio
 
-### Further customizations
-If you want to take your customizations further, you will need to modify the project source code. Some customizations, like changing theme colors and fonts, are straightforward (those can be modified in the `variables.scss` file). Other customizations will require more in-depth solutions.
-
-If you get stuck or just have a question, feel free to create a [Github issue](https://github.com/TylerMRoderick/fernfolio-11ty-template/issues) and I will try to point you in the right direction.
-
-Thanks for checking out Fernfolio 👋 - [Tyler M. Roderick](https://www.tylerroderick.com/)
-
-![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
+Sí, fui un flashero en mis inicios, y no me da vergüenza reconocerlo  . Para alguién que no tenía un perfil de
+programador, las posibilidades que daba Flash eran irresistibles (no voy a entrar
+aquí en las limitaciones que también las tenía).
+-> to do: hablar sobre las págians flash y como coomencé con drupal y los estadares.
+Y mis primeros empleos profesionales.
+### Las muerte de flash
+-> to do: comentar como la decisión de apple de no permitir flash en iOS y como afecto a mi carrera

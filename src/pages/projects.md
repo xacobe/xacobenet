@@ -1,12 +1,12 @@
 ---
 layout: projects.njk
-title: Projects
+title: Proyectos
 date: 2021-01-01
 permalink: /projects/index.html
-metaDescription: A sample Projects page
-subtitle: This is the page where all projects will live
+metaDescription: Proyectos creados por xacobe.net
+subtitle: Aquí están algunos de los proyectos en los que he trabajado.
 emoji: 💻
 eleventyNavigation:
-  key: Projects
+  key: Proyectos
   order: 3
 ---

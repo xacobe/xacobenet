@@ -1,12 +1,12 @@
 ---
-title: Another NPM Package
+title: Proyectos antiguos
 emoji: 💾
-metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
+metaDescription: Recompilo aquí los proyectos propios que ya pasaron a mejor vida. Ahora participo más en equipos y en mi tiempo libre... no lo tuve :).
 date: 2019-01-01T00:00:00.000Z
-summary: This is an NPM package I made
+summary: Proyectos propios y algo ya antiguos
 tags:
-  - javascript
-  - node
+  - web
+  - archive
 ---
 
 ### Task

@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: Articles
+title: Artículos
 date: 2017-01-01
 pagination:
   data: collections.post
