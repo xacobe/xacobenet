@@ -3,7 +3,7 @@
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* Body */
 html {
   font-size: 62.5%;
@@ -48,7 +48,7 @@ h4,
 h5,
 h6 {
   line-height: 1.1;
-  font-family: var(--font-family-heading);
+  font-family: 'Aclonica', sans-serif;
   font-weight: 800;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
