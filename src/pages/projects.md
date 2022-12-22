@@ -8,5 +8,5 @@ subtitle: Aquí están algunos de los proyectos en los que he trabajado.
 emoji: 💻
 eleventyNavigation:
   key: Proyectos
-  order: 3
+  order: 4
 ---

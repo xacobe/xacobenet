@@ -1,6 +1,7 @@
 .site-header {
   position: fixed;
   width: 100%;
+  background-color: var(--color-bg);
   border-top: 3px solid var(--color-secondary);
   z-index: var(--z-header);
 }
@@ -12,14 +13,10 @@
   justify-content: space-between;
   margin: 3px 12px 0;
   padding: 8px 10px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  background-color: var(--color-bg);
-  box-shadow: var(--shadow);
 
   @media (min-width: 1024px) {
     max-width: var(--site-width);
-    margin: 3px auto 0;
+    margin: 2rem auto 0;
   }
 }
 
@@ -29,19 +26,10 @@
 }
 
 .site-header__logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  padding: 6px 8px;
   width: 30px;
   height: 30px;
-  padding: 6px 8px;
-  border-radius: var(--border-radius-sm);
-  color: var(--color-text);
-
-  @media (min-width: 1024px) {
-    width: 40px;
-    height: 40px;
-  }
 
   &:hover {
     border-bottom: none;
@@ -53,7 +41,6 @@
 .site-header__nav {
   display: none;
   width: 100%;
-  margin-top: 15px;
 
   @media (min-width: 1024px) {
     display: block;

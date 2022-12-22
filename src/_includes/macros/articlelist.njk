@@ -1,6 +1,6 @@
-{% macro articlelist(Artículos, show_tags = true, limit) %}
+{% macro articlelist(articles, show_tags = true, limit) %}
   <section>
-  {% for article in Artículos %}
+  {% for article in articles %}
     {% if limit === undefined or loop.index0 < limit %}
       <article
         class="article-card {% if show_tags %}article-card--tags{% endif %}"

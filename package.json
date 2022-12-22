@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
   "scripts": {
-    "start": "cross-env npm-run-all build:sass --parallel watch:*",
+    "start": "cross-env npm-run-all build:sass --parallel watch:* watch:eleventy",
     "build": "cross-env npm-run-all build:sass build:scripts build:eleventy",
     "watch:scripts": "esbuild \"./src/assets/js/main.js\" --target=es6 --bundle --outfile=\"./_site/assets/js/main.bundle.js\"",
     "build:scripts": "esbuild \"./src/assets/js/main.js\" --target=es6 --bundle --minify --outfile=\"./_site/assets/js/main.bundle.js\"",
