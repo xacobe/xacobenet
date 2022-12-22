@@ -67,7 +67,7 @@ const Home = createClass({
 
           <!-- Article List Placeholder (for illustrative purposes) -->
           <hr/>
-          <h2>Artículos</h2>
+          <h2>Blog</h2>
           <section>
             <article class="article-card">
               <a class="article-card__link" href="#">
