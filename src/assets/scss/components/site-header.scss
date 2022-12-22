@@ -99,17 +99,16 @@
   display: flex;
   align-items: center;
   padding: 6px 8px;
-  border-radius: var(--border-radius-sm);
   color: var(--color-text);
+  border-bottom: 4px solid white;
 
   &:hover {
-    border-bottom: none;
-    background-color: var(--color-bg-secondary);
-    color: var(--color-secondary);
+    color: red;
+    border-bottom: solid 4px black;
   }
 
   &[aria-current] {
-    background-color: var(--color-bg-secondary);
-    color: var(--color-secondary);
+    color: black;
+    border-bottom: solid 4px red;
   }
 }
