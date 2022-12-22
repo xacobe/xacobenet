@@ -2,7 +2,7 @@
 title: xacobe.net está de vuelta
 metaDescription: xacobe.net net está de vuelta después de unos años inactivo
 date: 2019-01-01T00:00:00.000Z
-summary: xacobe.net net está de vuelta después de unos años inactivo
+summary: Estoy de vuelta. Bueno, más bien que yo está web y su blog. Después de que fuera hackeada (creo que en un Drupalgedon, que la tenía descuidada) y varios intentos de rehacerla con diferentes ideas y frameworks aquí estamos de vuelta.
 tags:
   - personal
   - web
