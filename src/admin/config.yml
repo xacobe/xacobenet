@@ -89,6 +89,7 @@ collections:
               name: image_alt,
               widget: string,
               required: false,
+            name: "eleventyNavigation",
             }
 
       # About page
