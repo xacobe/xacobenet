@@ -2,7 +2,6 @@
   position: fixed;
   width: 100%;
   background-color: var(--color-bg);
-  border-top: 3px solid var(--color-secondary);
   z-index: var(--z-header);
 }
 
@@ -10,13 +9,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 3px 12px 0;
   padding: 8px 10px;
 
   @media (min-width: 1024px) {
     max-width: var(--site-width);
-    margin: 2rem auto 0;
+    margin: 1rem auto;
   }
 }
 
