@@ -1,7 +1,8 @@
 :root {
   /* Brand Colors */
   --color-primary: #222;
-  --color-secondary: #2f5bc2;
+  --color-secondary: #c22f2f;
+  --color-neutral: #808080;
 
   /* Background Colors */
   --color-bg: #fff;
@@ -20,10 +21,10 @@
 
   /* Typography */
   --font-family-base: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --font-family-heading: 'Aclonica', sans-serif;
+  --font-family-heading: 'Quicksand', sans-serif;
 
   /* Sizes */
-  --site-width: 850px;
+  --page-width: 850px;
   --header-height: 66px;
   --header-height-lg: 76px;
 

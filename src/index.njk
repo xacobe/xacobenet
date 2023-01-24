@@ -41,5 +41,5 @@ eleventyNavigation:
   <h2>Proyectos</h2>
   {% from "macros/projectlist.njk" import projectlist %}
   {{ projectlist(projects = collections.project | reverse) }}
-
+  <a href="/projects" class="btn">Ver todos</a>
 </div>

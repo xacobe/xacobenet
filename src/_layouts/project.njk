@@ -7,10 +7,18 @@ section: project
     {% if emoji %}
       <span class="project-card__emoji">{{ emoji }}</span>
     {% endif %}
-    {{title}}</h1>
+    {{title}}
+  </h1>
   <hr/>
+  <div class="xxx">
+    <div class="qqq">{{ content | dump }}</div>
+    <img
+      class="project-card__image"
+      src="/assets/img/projects/{{ project.data.image }}"
+    />
+  </div>
   {{ layoutContent | safe }}
   <nav>
-    <a href="{{ '/projects/' | url }}">← View All Projects</a>
+    <a href="{{ '/projects/' | url }}">Ver todos los Proyectos</a>
   </nav>
 </div>

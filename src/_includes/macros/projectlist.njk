@@ -14,6 +14,12 @@
                 Untitled
               {% endif %}
             </a>
+            {% if project.data.image %}
+              <img
+                  class="project-card__image"
+                  src="/assets/img/projects/{{ project.data.image }}"
+                />
+            {% endif %}
           </h5>
           {% if project.data.summary %}
             <p>
@@ -25,7 +31,7 @@
               {% for tag in project.data.tags %}
                 {%- if tag != "project" -%}
                   {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
-                <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                  <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
                 {%- endif -%}
               {% endfor %}
             </p>

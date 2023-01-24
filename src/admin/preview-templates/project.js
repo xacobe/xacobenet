@@ -19,7 +19,7 @@ const Project = createClass({
         ${this.props.widgetFor('body')}
 
         <nav>
-          <a href="#">← View All Projects</a>
+          <a href="#">Ver todos los proyectos</a>
         </nav>
       </div>
     `;
