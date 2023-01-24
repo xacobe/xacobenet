@@ -11,4 +11,4 @@ eleventyNavigation:
   order: 5
 ---
 
-Puedes ponerte en contacto conmigo a través de este formulario.
+Puedes ponerte en contacto conmigo a través de este formulario y le responderé lo más breve en lo posible.
