@@ -27,14 +27,14 @@ eleventyNavigation:
   </div>
 
   {# Blog #}
-  <hr/>
+  {# <hr/>
   <h2>Blog</h2>
   {% from "macros/articlelist.njk" import articlelist %}
   {{ articlelist(
     articles = collections.post | reverse,
     show_tags = false,
     limit = 3
-  ) }}
+  ) }} #}
 
   {# Projects #}
   <hr/>
