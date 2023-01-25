@@ -3,12 +3,6 @@
   margin-right: auto;
   margin-left: auto;
   padding: 1rem;
-
-  img {
-    display: flex;
-    width: 100%;
-    max-width: 700px;
-  }
 }
 
 .shadow {
@@ -37,16 +31,13 @@
     color: var(--color-text-alt);
   }
 }
-
 .btn--sm {
   padding: 6px 8px;
 }
-
 .btn--danger {
   background-color: var(--color-danger);
   color: var(--color-text-alt);
 }
-
 .btn--danger:hover,
 .btn--danger:focus {
   border: none;
@@ -71,4 +62,19 @@
 	clip: rect(0,0,0,0) !important;
 	white-space: nowrap !important;
 	border: 0 !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.contact-form {
+  flex: 0 0 66%;
+  padding: 1rem;
+}
+.contact-social-icons {
+	flex-direction: column;
+	display: flex;
+	flex: 0 0 33%;
+  align-items: center
 }

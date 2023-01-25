@@ -1,7 +1,5 @@
 <div class="contact-social-icons">
-  <ul>
     {% for socials in social.all %}
-    <li>{{ socials.icon }}</li>
+    <img src="{{ socials.icon }}" class="contact-social-icons--items" alt="{{ socials.name }}" title="{{ socials.name }}" height="50px" width="50px">
     {% endfor %}
-  </ul>
 </div>

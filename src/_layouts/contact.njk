@@ -7,7 +7,9 @@ section: contact
   <hr/>
   {{ layoutContent | safe }}
 
-  {% include "partials/form.njk" %}
-  {% include "partials/social.njk" %}
+  <div class="wrapper-social d-flex">
+    {% include "partials/form.njk" %}
+    {% include "partials/social.njk" %}
+  </div>
 
 </div>

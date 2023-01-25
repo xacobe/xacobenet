@@ -3,16 +3,22 @@
   {
     "name": "Twitter",
     "url": "@xacobenet",
-    "icon": "fa-twitter"
+    "icon": "../assets/img/social/twitter.svg"
   },
   {
     "name": "Drupal",
-    "url": "xacobenet",
-    "icon": "fa-drupal"
-  },{
+    "url": "https://www.drupal.org/u/xacobe",
+    "icon": "../assets/img/social/drupal.svg"
+  },
+  {
     "name": "Github",
-    "url": "xacobenet",
-    "icon": "fa-github"
+    "url": "https://github.com/xacobe",
+    "icon": "../assets/img/social/github.svg"
+  },
+  {
+    "name": "Codepen",
+    "url": "https://codepen.io/collection/DjOYoe",
+    "icon": "../assets/img/social/codepen.svg"
   }
 ]
 }
