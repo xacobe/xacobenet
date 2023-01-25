@@ -20,7 +20,7 @@ const Projects = createClass({
           <div class="project-grid">
             <div class="project-card">
               <h5>
-                <a class="project-card__title" href="#">
+                <a class="card__title" href="#">
                   <span class="project-card__emoji">👾</span>
                   Placeholder Project
                 </a>
@@ -33,7 +33,7 @@ const Projects = createClass({
             </div>
             <div class="project-card">
               <h5>
-                <a class="project-card__title" href="#">
+                <a class="card__title" href="#">
                   <span class="project-card__emoji">👾</span>
                   Another Placeholder
                 </a>

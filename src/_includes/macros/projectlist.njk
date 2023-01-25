@@ -1,67 +1,80 @@
 {% macro projectlist(projects) %}
-  <section>
-    <div class="project-grid">
-      {% for project in projects %}
-        <div class="project-card-container inactive">
-          <div class="project-card">
-            <div class="side front">
-                {% if project.data.image %}
-                  <img
-                  class="project-card__image"
-                  src="/assets/img/projects/{{ project.data.image }}"
-                  />
-                {% endif %}
-              <div class="info">
-                {% if project.data.title %}
-                  <h3 class="project-card__title">{{ project.data.title }}</h3>
-                {% else %}
-            Sin título
+<section>
+  <div class="project-grid">
+    {% for project in projects %}
+    <div class="scene scene--card inactive">
+      <div class="card">
+        <div class="card__face card__face--front">
+          {% if project.data.image %}
+          <img class="project-card__image"
+            src="/assets/img/projects/{{ project.data.image }}" />
           {% endif %}
-              </div>
-              {# {% if project.data.tags %}
-                <p class="tag-list">
-                  {% for tag in project.data.tags %}
-                    {%- if tag != "project" -%}
-                      {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
-                      <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                    {%- endif -%}
-                  {% endfor %}
-                </p>
-              {% endif %} #}
-            </div>
-            <div class="side back">
-              <div class="info">
-                {% if project.data.title %}
-                  <h2>{{ project.data.title }}</h2>
-                {% else %}
-            Sin título
+          {% if project.data.title %}
+          <h3 class="card__title">{{ project.data.title }}</h3>
+          {% else %}
+          Sin título
           {% endif %}
-                <div class="project-card__body">
-                  {% if project.data.summary %}
-                    <p>
-                      {{ project.data.summary }}
-                    </p>
-                  {% endif %}
-                  {% if project.data.technology %}
-                    <ul>
-                      {% for tech in project.data.technology %}
-                        {%- if tech != "project" -%}
-                          <li>{{ tech }}</li>
-                        {%- endif -%}
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
-                </div>
-                <div class="btn-arrow">
-                  {# <a class="project-card__button" href="{{ project.url | url }}">Ir a proyecto</a> #}
-                  <a class="project-card__button" href="{{ project.data.url_online | url }}">Ver online</a>
-                  <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
-                </div>
-              </div>
-            </div>
+          {# {% if project.data.tags %}
+          <p class="tag-list">
+            {% for tag in project.data.tags %}
+            {%- if tag != "project" -%}
+            {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
+            <a class="project-card__tag tag" href="{{ tagUrl | url }}"
+              rel="tag">{{ tag }}</a>
+            {%- endif -%}
+            {% endfor %}
+          </p>
+          {% endif %} #}
+        </div>
+        <div class="card__face card__face--back">
+          {% if project.data.title %}
+          <h3 class="card__title">{{ project.data.title }}</h3>
+          {% else %}
+          Sin título
+          {% endif %}
+          {% if project.data.summary %}
+          <p>
+            {{ project.data.summary }}
+          </p>
+          {% endif %}
+          {% if project.data.technology %}
+          <ul>
+            {% for tech in project.data.technology %}
+            {%- if tech != "project" -%}
+            <li>{{ tech }}</li>
+            {%- endif -%}
+            {% endfor %}
+          </ul>
+          {% endif %}
+          <div class="btn-arrow">
+            {# <a class="project-card__button" href="{{ project.url | url }}">Ir
+              a proyecto</a> #}
+            <a class="project-card__button"
+              href="{{ project.data.url_online | url }}">Ver online</a>
           </div>
         </div>
-      {% endfor %}
+      </div>
     </div>
-  </section>
+    {% endfor %}
+  </div>
+</section>
 {% endmacro %}
+
+
+
+
+
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front"><a
+        href="https://www.google.com">front</a></div>
+    <div class="card__face card__face--back">back</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front</div>
+    <div class="card__face card__face--back">back</div>
+  </div>
+</div>
+<p>Click card to flip.</p>
