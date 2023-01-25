@@ -21,14 +21,13 @@
 
 .site-header__logo-container {
   margin: 0;
-  font-weight: 700;
+  margin-right: auto;
 }
 
 .site-header__logo {
-  display: block;
   padding: 6px 8px;
-  width: 30px;
-  height: 30px;
+  color: black;
+  font-size: 3rem;
 
   &:hover {
     border-bottom: none;
