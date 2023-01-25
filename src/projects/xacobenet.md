@@ -8,7 +8,7 @@ url_online: http://www.xacobe.net
 technology:
  - HTML, CSS, JS
  - Eleventy
- - Boostrap
+ - Netifly
 image: xacobenet.jpg
 tags:
   - javascript
