@@ -85,3 +85,5 @@ This is a fun side project for me and I always welcome questions/comments. If yo
 *This project was originally forked from [eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate), but completely revamped to match the needs of a modern porfolio.*
 
 The flip card script was taken from Zac at https://codepen.io/zremboldt/pen/ZvQjOG
+
+Iconos cogidos de https://www.svgrepo.com/vectors/github
