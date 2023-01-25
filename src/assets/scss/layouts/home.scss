@@ -30,12 +30,12 @@
 }
 
 .hero {
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-rows: auto auto;
-  grid-row-gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-column-gap: 70px;
-  max-width: 1100px;
+  text-align: center;
   margin: 0 auto;
 
   @media (min-width: 1024px) {
