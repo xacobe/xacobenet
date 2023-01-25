@@ -1,26 +1,32 @@
 <form class="contact-form" name="contact" method="POST" data-netlify="true">
-  <label for="name">Nombre</label>
-  <input
-    type="text"
-    name="name"
-    id="name"
-    autocomplete="name"
-    placeholder="Tu nombre"
-    title="Porfavor introduzca su nombre"
-    required
-  >
-  <label for="email">Email</label>
-  <input
-    type="email"
-    name="email"
-    id="email"
-    autocomplete="email"
-    placeholder="Tu email"
-    title="Hay algo incorrecto en el dominio, lo que viene después de la @"
-    pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
-    required
-  >
-  <label for="message">Mensaje</label>
-  <textarea name="message" id="message" placeholder="Escribe aquí tu mensaje" rows="7" required></textarea>
+  <div class="form-name">
+    <label class="visually-hidden" for="name">Nombre</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      autocomplete="name"
+      placeholder="Tu nombre"
+      title="Porfavor introduzca su nombre"
+      required
+    >
+  </div>
+  <div class="form-email">
+    <label class="visually-hidden" for="email">Email</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      autocomplete="email"
+      placeholder="Tu email"
+      title="Hay algo incorrecto en el dominio, lo que viene después de la @"
+      pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
+      required
+    >
+  </div>
+  <div class="form-message">
+    <label class="visually-hidden" for="message">Mensaje</label>
+    <textarea name="message" id="message" placeholder="Escribe aquí tu mensaje" rows="7" required></textarea>
+  </div>
   <button class="contact-form__submit btn" type="submit" name="submit">Enviar</button>
 </form>
