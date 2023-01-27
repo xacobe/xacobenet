@@ -1,5 +1,6 @@
-<div class="contact-social-icons">
+<div class="social">
     {% for socials in social.all %}
-    <img src="{{ socials.icon }}" class="contact-social-icons--items" alt="{{ socials.name }}" title="{{ socials.name }}" height="50px" width="50px">
+    <img src="{{ socials.icon }}" class="social--items" alt="{{ socials.name }}" title="{{ socials.name }}" height="50px" width="50px">
+    <a href="{{ socials.url }}" class="" target="_blank" rel="noopener noreferrer">{{ socials.name }}</a>
     {% endfor %}
 </div>
