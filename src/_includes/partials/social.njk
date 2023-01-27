@@ -1,6 +1,7 @@
 <div class="social">
     {% for socials in social.all %}
-    <img src="{{ socials.icon }}" class="social--items" alt="{{ socials.name }}" title="{{ socials.name }}" height="50px" width="50px">
-    <a href="{{ socials.url }}" class="" target="_blank" rel="noopener noreferrer">{{ socials.name }}</a>
+    <a href="{{ socials.url }}" class="" target="_blank" rel="noopener noreferrer">
+      <img src="{{ socials.icon }}" class="social--items" alt="{{ socials.name }}" title="{{ socials.name }}" height="50px" width="50px">
+    </a>
     {% endfor %}
 </div>
