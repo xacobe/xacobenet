@@ -1,0 +1,13 @@
+.social {
+  flex-direction: column;
+  display: flex;
+  flex: 0 0 33%;
+  align-items: center;
+}
+.social__items {
+  padding-bottom: 1rem;
+
+  &:hover {
+    border: none;
+  }
+}
