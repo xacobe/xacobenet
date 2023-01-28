@@ -103,12 +103,12 @@
   border-bottom: 4px solid white;
 
   &:hover {
-    color: red;
+    color: var(--color-secondary);
     border-bottom: solid 4px black;
   }
 
   &[aria-current] {
     color: black;
-    border-bottom: solid 4px red;
+    border-bottom: solid 4px var(--color-secondary);
   }
 }

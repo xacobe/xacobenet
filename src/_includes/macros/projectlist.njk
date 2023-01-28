@@ -2,61 +2,60 @@
 <section>
   <div class="project-grid">
     {% for project in projects %}
-    <div class="scene scene--card inactive">
-      <div class="card">
-        <div class="card__face card__face--front">
+
+
+
+    <div class="card">
+      <input type="checkbox" id="card-{{ loop.index }}" class="more"
+        aria-hidden="true">
+      <div class="content">
+        <div class="front">
           {% if project.data.image %}
           <img class="project-card__image"
             src="/assets/img/projects/{{ project.data.image }}" />
           {% endif %}
           {% if project.data.title %}
-          <h3 class="card__title">{{ project.data.title }}</h3>
+          <h3 class="card__title inner">{{ project.data.title }}</h3>
           {% else %}
           Sin título
           {% endif %}
-          {# {% if project.data.tags %}
-          <p class="tag-list">
-            {% for tag in project.data.tags %}
-            {%- if tag != "project" -%}
-            {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
-            <a class="project-card__tag tag" href="{{ tagUrl | url }}"
-              rel="tag">{{ tag }}</a>
-            {%- endif -%}
-            {% endfor %}
-          </p>
-          {% endif %} #}
+          <label for="card-{{ loop.index }}" class="button" aria-hidden="true">
+            Detalles
+          </label>
         </div>
-        <div class="card__face card__face--back">
-          {% if project.data.title %}
-          <h3 class="card__title">{{ project.data.title }}</h3>
-          {% else %}
-          Sin título
-          {% endif %}
-          {% if project.data.summary %}
-          <p>
-            {{ project.data.summary }}
-          </p>
-          {% endif %}
-          {% if project.data.technology %}
-          <ul>
-            {% for tech in project.data.technology %}
-            {%- if tech != "project" -%}
-            <li>{{ tech }}</li>
-            {%- endif -%}
-            {% endfor %}
-          </ul>
-          {% endif %}
-          <div class="btn-arrow">
-            {# <a class="project-card__button" href="{{ project.url | url }}">Ir
-              a proyecto</a> #}
-            <a class="project-card__button"
-              href="{{ project.data.url_online | url }}">Ver online</a>
+        <div class="back">
+          <div class="inner">
+            {% if project.data.title %}
+            <h3 class="card__title">{{ project.data.title }}</h3>
+            {% else %}
+            Sin título
+            {% endif %}
+
+            <div class="description">
+              {% if project.data.summary %}
+              <p>
+                {{ project.data.summary }}
+              </p>
+              {% endif %}
+              {% if project.data.technology %}
+              <ul>
+                {% for tech in project.data.technology %}
+                {%- if tech != "project" -%}
+                <li>{{ tech }}</li>
+                {%- endif -%}
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
           </div>
+          <label for="card-{{ loop.index }}" class="button return"
+            aria-hidden="true">
+            Volver
+          </label>
         </div>
       </div>
     </div>
     {% endfor %}
-  </div>
 </section>
 {% endmacro %}
 
@@ -64,17 +63,56 @@
 
 
 
-<div class="scene scene--card">
+<div class="wrapper">
   <div class="card">
-    <div class="card__face card__face--front"><a
-        href="https://www.google.com">front</a></div>
-    <div class="card__face card__face--back">back</div>
+    <div class="card__face card__face--front">
+      {% if project.data.image %}
+      <img class="project-card__image"
+        src="/assets/img/projects/{{ project.data.image }}" />
+      {% endif %}
+      {% if project.data.title %}
+      <h3 class="card__title">{{ project.data.title }}</h3>
+      {% else %}
+      Sin título
+      {% endif %}
+      {# {% if project.data.tags %}
+      <p class="tag-list">
+        {% for tag in project.data.tags %}
+        {%- if tag != "project" -%}
+        {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
+        <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{
+          tag }}</a>
+        {%- endif -%}
+        {% endfor %}
+      </p>
+      {% endif %} #}
+    </div>
+    <div class="card__face card__face--back">
+      {% if project.data.title %}
+      <h3 class="card__title">{{ project.data.title }}</h3>
+      {% else %}
+      Sin título
+      {% endif %}
+      {% if project.data.summary %}
+      <p>
+        {{ project.data.summary }}
+      </p>
+      {% endif %}
+      {% if project.data.technology %}
+      <ul>
+        {% for tech in project.data.technology %}
+        {%- if tech != "project" -%}
+        <li>{{ tech }}</li>
+        {%- endif -%}
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <div class="btn-arrow">
+        {# <a class="project-card__button" href="{{ project.url | url }}">Ir
+          a proyecto</a> #}
+        <a class="project-card__button"
+          href="{{ project.data.url_online | url }}">Ver online</a>
+      </div>
+    </div>
   </div>
 </div>
-<div class="scene scene--card">
-  <div class="card">
-    <div class="card__face card__face--front">front</div>
-    <div class="card__face card__face--back">back</div>
-  </div>
-</div>
-<p>Click card to flip.</p>
