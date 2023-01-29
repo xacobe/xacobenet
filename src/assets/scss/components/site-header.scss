@@ -3,7 +3,7 @@
   width: 100%;
   background-color: var(--color-bg);
   z-index: var(--z-header);
-  border-bottom: solid #bbb;
+  border-bottom: solid #000;
 }
 
 .site-header__container {
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 12px 0;
-  padding: 4px 10px;
+  padding: 0 10px 4px 10px;
 
   @media (min-width: 1024px) {
     max-width: var(--page-width);
@@ -26,7 +26,7 @@
 }
 .site-logo {
   width: 2.2rem;
-  padding-top: 12px;
+  padding-top: 1.2rem;
   margin-right: 0.5rem;
 }
 .site-header__logo {
