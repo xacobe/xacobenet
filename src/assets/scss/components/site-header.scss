@@ -4,6 +4,13 @@
   background-color: var(--color-bg);
   z-index: var(--z-header);
   border-bottom: solid #bbb;
+
+  a {
+  &:hover {
+    border-bottom: 2px solid var(--color-secondary);
+  }
+}
+
 }
 
 .site-header__container {
@@ -11,12 +18,12 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 3px 12px 0;
-  padding: 8px 10px;
+  margin: 0 12px 0;
+  padding: 4px 10px;
 
   @media (min-width: 1024px) {
     max-width: var(--page-width);
-    margin: 1rem auto;
+    margin: 0 auto;
   }
 }
 

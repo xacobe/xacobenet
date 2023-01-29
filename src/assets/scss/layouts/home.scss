@@ -1,10 +1,11 @@
 .home-page {
   max-width: var(--page-width);
-  margin: 0 auto 60px;
-  padding: 0 20px 20px;
+  margin: 70px auto 60px;
+  padding: 4rem 20px 20px;
 
-  @media (min-width: 1024px) {
-    padding: 20px 40px;
+  @media (min-width: 720px) {
+
+      padding-top: 0;
   }
 }
 
@@ -72,7 +73,6 @@
 
 .hero__body {
   margin-top: 0;
-  margin-bottom: 1rem;
   font-size: 1.3em;
 
   > *:first-child {

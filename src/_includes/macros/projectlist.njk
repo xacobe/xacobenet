@@ -2,9 +2,6 @@
 <section>
   <div class="project-grid">
     {% for project in projects %}
-
-
-
     <div class="card">
       <input type="checkbox" id="card-{{ loop.index }}" class="more"
         aria-hidden="true">
@@ -19,8 +16,13 @@
           {% else %}
           Sin título
           {% endif %}
-          <label for="card-{{ loop.index }}" class="button" aria-hidden="true">
-            Detalles
+          <label for="card-{{ loop.index }}" class="btn-plus" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+            </svg>
+            <span class="visually-hidden">Detalles</span>
           </label>
         </div>
         <div class="back">
@@ -46,17 +48,26 @@
                 {% endfor %}
               </ul>
               {% endif %}
+              <a class="card__button mx-auto" target="_blank" href="{{ project.data.url_online | url }}">
+                Ver online
+              </a>
             </div>
           </div>
-          <label for="card-{{ loop.index }}" class="button return"
+          <label for="card-{{ loop.index }}" class="btn-plus return"
             aria-hidden="true">
-            Volver
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+            </svg>
+            <span class="visually-hidden">Volver</span>
           </label>
         </div>
       </div>
     </div>
     {% endfor %}
-</section>
+  </section>
+  <a href="/projects" class="btn mx-auto mt-md-8">Ver todos</a>
 {% endmacro %}
 
 
