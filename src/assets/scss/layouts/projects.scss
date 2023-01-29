@@ -28,6 +28,10 @@ $accent-color: #355cc9;
     height: 350px;
   }
 
+  img {
+    border: solid 1px #999;
+  }
+
   .content {
     position: relative;
     width: 100%;
@@ -67,6 +71,7 @@ $accent-color: #355cc9;
   justify-content: space-between;
   backface-visibility: hidden;
   transform-style: preserve-3d;
+  border: solid 1px #999;
 
   .inner {
     transform: translateZ(80px) scale(0.94);
@@ -92,7 +97,11 @@ $accent-color: #355cc9;
 .back {
   transform: rotateY(180deg);
   background-color: #fff;
-  border: 2px solid rgb(240, 240, 240);
+  .card__title {
+    margin-bottom: 1.5em;
+    margin-top: 3rem;
+  }
+
   .inner {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
