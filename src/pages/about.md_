@@ -3,7 +3,7 @@ title: Sobre mi
 subtitle: ""
 metaDescription: Sobre xacobe.net
 date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+permalink: /sobre-mi/index.html
 eleventyNavigation:
   key: Sobre mí
   order: 2
@@ -17,18 +17,12 @@ como Eleventy.
 ### Un poco más sobre mi
 
 En el año 2002 estudié producción multimedia en el Lambeth college de Londres.
-Allí hice mi primeras páginas web tanto con HTML como con Flash. Además de crear
-aquellos (siguen habiendo) menús interactivos de los DVD con Director Macromedia.
+Allí hice mi primeras páginas web tanto con HTML como con Flash.
 
 Situaciones de la vida, no pude terminar el grado. Así que me seguí formando, por
 mi cuenta de manera autodidáctica y en mis tiempos libres.
 
-### El principio
+### Actualmente
 
-Fui flashero en mis inicios, nada de lo que arrepertirse 😜. Para alguién que no tenía un perfil de
-programador, las posibilidades que daba Flash eran irresistibles (no voy a entrar
-aquí en las limitaciones que lo llevaron a su declive).
--> to do: hablar sobre las págians flash y como coomencé con drupal y los estadares.
-Y mis primeros empleos profesionales.
-### Las muerte de flash
--> to do: comentar como la decisión de apple de no permitir flash en iOS y como afecto a mi carrera
+Llevo trabajando como desarrollador desde hace más de 10 años, ya sea como
+autónomo o en empresas.
