@@ -4,13 +4,6 @@
   background-color: var(--color-bg);
   z-index: var(--z-header);
   border-bottom: solid #bbb;
-
-  a {
-  &:hover {
-    border-bottom: 2px solid var(--color-secondary);
-  }
-}
-
 }
 
 .site-header__container {
@@ -38,8 +31,6 @@
   font-size: 3rem;
 
   &:hover {
-    border-bottom: none;
-    background-color: var(--color-bg-secondary);
     color: var(--color-secondary);
   }
 }
