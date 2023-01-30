@@ -1,8 +1,8 @@
 .social {
-  flex-direction: column;
   display: flex;
   flex: 0 0 33%;
   align-items: center;
+  justify-content: center;
 }
 .social__items {
   padding: 1rem;
