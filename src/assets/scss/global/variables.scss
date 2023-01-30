@@ -6,7 +6,7 @@
 
   /* Background Colors */
   --color-bg: #fff;
-  --color-bg-secondary: #f7f7f7;
+  --color-bg-secondary: #c22f2f;
   --color-bg-accent: rgb(174, 182, 225);
   --color-bg-hover: #f3f4f6cc;
 
@@ -35,4 +35,12 @@
   --border-radius: 12px;
   --border-radius-sm: 5px;
   --shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+
+  // Borders
+  --border-1: 1px;
+  --border-2: 2px;
+  --border-3: 3px;
+  --border-primary: var(--color-primary)
+  --border-secondary: var(--color-secondary)
+
 }

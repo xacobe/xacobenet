@@ -2,6 +2,10 @@
   max-width: var(--page-width);
   padding: 1rem;
   margin: 70px auto 60px;
+
+  @media (min-width: 720px) {
+    margin-top: 0
+  }
 }
 
 .shadow {
@@ -54,6 +58,7 @@
 }
 .btn-plus {
   color: var(--color-secondary);
+  background: #fff;
   text-align: center;
   cursor: pointer;
 }
