@@ -64,8 +64,9 @@
   }
 
   svg {
-    width: 20px;
     height: auto;
+    width: 24px;
+    padding-top: 0.5rem;
   }
 
   @media (min-width: 1024px) {
