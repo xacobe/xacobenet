@@ -29,6 +29,9 @@ main {
   @media (min-width: 1024px) {
     padding-top: var(--header-height-lg);
   }
+  @media print {
+    padding-top: 0;
+  }
 }
 
 footer {

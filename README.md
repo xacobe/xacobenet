@@ -87,3 +87,5 @@ This is a fun side project for me and I always welcome questions/comments. If yo
 The flip card script was taken from Zac at https://codepen.io/zremboldt/pen/ZvQjOG
 
 Iconos cogidos de https://www.svgrepo.com/vectors/github
+
+That CSS card are taken from https://codepen.io/kparzecki/pen/RYzZwG

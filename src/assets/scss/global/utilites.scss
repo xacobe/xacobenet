@@ -4,7 +4,10 @@
   margin: 70px auto 60px;
 
   @media (min-width: 720px) {
-    margin-top: 0
+    margin-top: 0;
+  }
+  @media print {
+    margin-top: 0;
   }
 }
 
@@ -108,7 +111,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media(max-width: 720px) {
+@media (max-width: 720px) {
   .mt-md-8 {
     margin-top: 8rem;
   }
@@ -117,3 +120,27 @@
 .w-100 {
   width: 100% !important;
 }
+
+.d-none {
+  display: none !important;
+}
+
+@media print {
+  .d-print-block {
+    display: block !important;
+  }
+  .d-print-inline-block {
+    display: inline-block !important;
+  }
+  .d-print-none {
+    display: none !important;
+  }
+}
+@media print {
+  @page { margin: 0; }
+   body {
+    margin: 1.6cm;
+    font-size: 1rem;
+  }
+}
+
