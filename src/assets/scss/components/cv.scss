@@ -1,5 +1,4 @@
 .header {
-  margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
 
@@ -109,5 +108,16 @@
   a:hover {
     text-decoration: underline;
     color: #000;
+  }
+}
+.languages {
+  .section__list-item {
+    display: inline-block;
+    padding-right: 2rem;
+
+   & > *{
+    display: inline-block;
+    padding-right: .5rem;
+  }
   }
 }
