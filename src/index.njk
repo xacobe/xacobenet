@@ -23,20 +23,7 @@ eleventyNavigation:
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
-      <div class="social"><a href="https://www.twitter.com/xacobenet"
-          class="social__items" target="_blank" rel="noopener noreferrer"><img
-            src="../assets/img/social/twitter.svg" alt="Twitter" title="Twitter"
-            width="50px" height="50px"> </a><a href="https://www.drupal.org/u/xacobe"
-          class="social__items" target="_blank" rel="noopener noreferrer"><img
-            src="../assets/img/social/drupal.svg" alt="Drupal" title="Drupal"
-            width="50px" height="50px"> </a><a href="https://github.com/xacobe"
-          class="social__items" target="_blank" rel="noopener noreferrer"><img
-            src="../assets/img/social/github.svg" alt="Github" title="Github"
-            width="50px" height="50px"> </a><a
-          href="https://codepen.io/collection/DjOYoe" class="social__items"
-          target="_blank" rel="noopener noreferrer"><img
-            src="../assets/img/social/codepen.svg" alt="Codepen" title="Codepen"
-            width="50px" height="50px"></a></div>
+      {% include "partials/social.njk" %}
     </div>
   </div>
 
