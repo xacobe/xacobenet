@@ -9,7 +9,7 @@ technology:
  - Drupal
 image: minino.jpg
 tags:
-  - drupal
+  - web
 ---
 
 ### Task

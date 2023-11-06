@@ -16,4 +16,8 @@ section: projects
   {# Projects #}
   {% from "macros/projectlist.njk" import projectlist %}
   {{ projectlist(projects = collections.project | reverse) }}
+
+  {# Old Projects #}
+  {% from "macros/oldprojectlist.njk" import oldprojectlist %}
+  {{ oldprojectlist(projects = collections.projects_old | reverse) }}
 </div>
